@@ -1,5 +1,7 @@
 #!/bin/bash
 project="$1"
+array[0]="europe-west4-a"
+array[2]="us-central1-c"
 size=${#array[@]}
 index=$(($RANDOM % $size))
 region=${array[$index]}
