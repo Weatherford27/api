@@ -20,4 +20,4 @@ gcloud alpha compute tpus tpu-vm create node-8 --zone=us-central1-c --project=$p
 sleep 5
 gcloud alpha compute tpus tpu-vm create node-9 --zone=us-central1-b --project=$project --accelerator-type=v2-8 --version=v2-alpha
 sleep 5
-gcloud alpha compute tpus tpu-vm create node-10 --zone=europe-west4-a --project=$project --accelerator-type=v2-8 --version=v2-alpha
+gcloud alpha compute tpus tpu-vm create node-10 --zone=europe-west4-a --project=$project --accelerator-type=v3-8 --version=v2-alpha
