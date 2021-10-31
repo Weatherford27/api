@@ -1,4 +1,5 @@
 #!/bin/bash
+
 project="$1"
 
 gcloud alpha compute tpus tpu-vm create node-1 --zone=europe-west4-a --project=$project --accelerator-type=v3-8 --version=v2-alpha
